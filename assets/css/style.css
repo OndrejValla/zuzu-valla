@@ -18,7 +18,7 @@ body {
   height: 175px;
   margin: 0 auto;
   background-color: rgb(173, 74, 74);
-  border-bottom: 1px solid #fafafafa;
+  border-bottom: 2px solid #fafafafa;
   z-index: 1;
 }
 
@@ -87,7 +87,7 @@ body {
 
 
 #front-page-image {
-    height: 1000px;
+    height: 1100px;
     width: 100%;
     background-position: 50% 50%;
     background: url(../images/front-page-image.jpg) no-repeat center center;
@@ -95,8 +95,27 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
 
+    /* INSPIRED BY CODE INSTITUTE, LOVE RUNNING PROJECT*/
+animation-name: front-image-zoom;
+animation-duration: 5s;
+animation-fill-mode: forwards;
 }
 
+#front-page-image-out {
+    height: 900px;
+    width: 100%;
+    overflow: hidden;
+}
+
+@keyframes front-image-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
 
 
 /* ----------------------------------- Footer */
@@ -105,9 +124,9 @@ footer {
     width: 100%;
     height: 100px;
     background-color: rgb(173, 74, 74);
-    padding: 5px;
+    padding-top: 5px;
     padding-bottom: 0px;
-    border-top: solid 1px #fafafafa;
+    border-top: solid 2px #fafafafa;
     z-index: 1;
 }
 
@@ -155,8 +174,10 @@ footer span {
 
 /* ----------------------------------- Gallery Page */
 
+
+
 .weddings-gallery {
-    background-image: url(../images/gallery-image-1.jpg);
+    background-image: url(/assets/images/gallery-top-image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 70% 40%;
@@ -165,7 +186,10 @@ footer span {
     padding-bottom: 40px;
     padding-left: 25px;
     overflow: hidden;
+    border:#fafafafa solid 1px;
 }
+
+
 
 .gallery-window {
     padding-top: 20px;
@@ -177,5 +201,27 @@ footer span {
 }
 
 .double-window {
-    padding: 10px 50px;
+    padding: 10px 5px;
+}
+
+
+
+.card-title {
+    
+    font-style: italic;
+    font-weight: 600;
+    
+}
+
+.card h5:hover {
+    color: gold;
+}
+
+.card a {
+    text-decoration: none;
+    color: #fafafafa;
+}
+
+.card-body {
+    background-color:rgb(173, 74, 74);
 }
