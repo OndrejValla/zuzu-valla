@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Questrial:wght@300,400,500,600,700&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial:wght@300,400,500,600,700&family=Roboto:wght@100,200,300,400,500,600,700&display=swap');
 
 
 body {
@@ -93,8 +93,8 @@ body {
     background-position: 50% 50%;
     background: url(../images/front-page-image.jpg) no-repeat center center;
     overflow: hidden;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 120px;
+    padding-bottom: 100px;
 
     /* INSPIRED BY CODE INSTITUTE, LOVE RUNNING PROJECT*/
 animation-name: front-image-zoom;
@@ -123,7 +123,7 @@ animation-fill-mode: forwards;
 
 footer {
     width: 100%;
-    height: 100px;
+    height: 140px;
     background-color: rgb(173, 74, 74);
     padding-top: 5px;
     padding-bottom: 0px;
@@ -225,4 +225,73 @@ footer span {
 
 .card-body {
     background-color:rgb(173, 74, 74);
+}
+
+
+
+/* ----------------------------------- About Page */
+
+
+#about-zuzu-section {
+    background-color: rgb(173, 74, 74);
+}
+
+.about-zuzu-section-row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.about-zuzu {
+    padding: 10px;
+}
+
+.about-zuzu-image {
+    background: url(/assets/images/zuzu-valla-profile/Zuzu\ Valla\ Bio.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 650px;
+    margin-top: 40px;
+    margin: 20px;
+    border:#fafafafa solid 1px;
+    border-radius: 4px;
+}
+
+.about-zuzu-bg {
+    background-color: rgb(173, 74, 74);
+}
+
+
+.about-h2 {
+    font-family: "Roboto" sans-serif;
+    font-weight: 200;
+    font-size: 42px;
+    margin: 20px;
+    color: #fafafafa;
+}
+
+
+.about-h3 {
+   font-family: "Roboto" sans-serif;
+   font-weight: 100;
+   font-size: 24px;
+   margin: 20px;
+   color: #fafafafa;
+}
+
+.about-p {
+   font-family: "Roboto" sans-serif;
+   font-weight: 100;
+   margin: 20px;
+   color: #fafafafa;
+}
+
+
+@media only screen and (max-width: 600px){
+
+.about-h2,
+.about-h3,
+.about-p {
+    text-align: center;
+}
 }
