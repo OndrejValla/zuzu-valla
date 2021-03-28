@@ -26,8 +26,8 @@ h6 {
 .page-header {
   height: 175px;
   margin: 0 auto;
-  background-color: rgb(143,67,80);
-  border-bottom: 2px solid white;
+  background-color: rgb(173, 74, 74);
+  border-bottom: 2px solid #fafafafa;
   z-index: 1;
 }
 
@@ -56,8 +56,9 @@ h6 {
 #header-logo {
     font-size: 300%;
     float: left;
-    padding-top: 10px;
+    margin-top: 10px;
 }
+
 
 
 /* ----------------------------------- Menu Bar */
@@ -143,7 +144,7 @@ animation-fill-mode: forwards;
 
 
 
-.weddings-gallery {
+.weddings-gallery-menu {
     background-image: url(/assets/images/gallery-top-image.jpg);
     background-color:#f7bfbf52;
     background-size: cover;
@@ -157,13 +158,13 @@ animation-fill-mode: forwards;
     border: 1px solid white;
 }
 
-.weddings-gallery h2 {
+.weddings-gallery-menu h2 {
     padding-bottom: 15px;
 }
 
 
 
-.gallery-window {
+.gallery-window-menu {
     background-color:#f7bfbf52;
     padding-bottom: 30px;
 }
@@ -182,9 +183,10 @@ animation-fill-mode: forwards;
     padding-left: 5px;
     padding-right: 5px;;
 }
+   
 
-
-.card-deck {
+.card {
+    border: 1px solid white;
     border-radius: 3px;
 }
 
@@ -226,6 +228,8 @@ animation-fill-mode: forwards;
     border: 1px solid white;
     border-radius: 3px;
 }    
+
+
 .packaging-options-window div {
     text-align: center;
 }
@@ -237,7 +241,7 @@ animation-fill-mode: forwards;
 
 .packages {
     color: #fafafafa;
-    background-color: rgba(0,0,0, .2);
+    background-color: rgba(0,0,0, .3);
     padding: 20px;
     border: 1px solid white;
     border-radius: 3px;
@@ -265,6 +269,35 @@ animation-fill-mode: forwards;
 
 
 
+
+/* -----------------------------------Individual Galleries For  Weddings 1 2 3 4  */
+
+
+
+#weddings-1-2-3-4-galleries {
+    background-image: url(/assets/images/wedding-packages.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 5% 40%;
+    text-align: center;
+    min-height: 700px;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+#weddings-1-2-3-4-galleries h2 {
+    margin: 20px;
+}
+
+
+.weddings-1-2-3-4-galleries-item {
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+    width: 310px;
+    height: 260px;
+}
 
 
 /* ----------------------------------- About Page */
