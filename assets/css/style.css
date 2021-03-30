@@ -280,7 +280,7 @@ animation-fill-mode: forwards;
     background-repeat: no-repeat;
     background-position: 5% 40%;
     text-align: center;
-    min-height: 700px;
+    height: 100%;
     border: 1px solid white;
     border-radius: 3px;
 }
