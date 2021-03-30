@@ -61,7 +61,7 @@ h6 {
 
 
 
-/* ----------------------------------- Menu Bar */
+/* ----------------------------------- General Menu Bar */
 
 #menu-bar {
     text-align: center;
@@ -103,7 +103,7 @@ h6 {
 }
 
 
-/* ----------------------------------- Front page content */
+/* -----------------------------------Index.html  Front page content */
 
 
 #front-page-image {
@@ -140,7 +140,7 @@ animation-fill-mode: forwards;
 
 
 
-/* ----------------------------------- Gallery Page */
+/* ----------------------------------- Gallery.html Page */
 
 
 
@@ -213,7 +213,7 @@ animation-fill-mode: forwards;
 
 
 
-/* ----------------------------------- Gallery Page Wedding Packages Section */
+/* ----------------------------------- Gallery.html Wedding Packages Section */
 
 
 
@@ -270,8 +270,7 @@ animation-fill-mode: forwards;
 
 
 
-/* -----------------------------------Individual Galleries For  Weddings 1 2 3 4  */
-
+/* ------------Wedding-1.html Wedding-2.html Wedding-3.html Wedding-4.html  Galleries ------*/
 
 
 #weddings-1-2-3-4-galleries {
@@ -283,6 +282,7 @@ animation-fill-mode: forwards;
     height: 100%;
     border: 1px solid white;
     border-radius: 3px;
+    padding-bottom: 15px;
 }
 
 #weddings-1-2-3-4-galleries h2 {
@@ -300,7 +300,60 @@ animation-fill-mode: forwards;
 }
 
 
-/* ----------------------------------- About Page */
+
+/* -----------------Wedding-1.html Wedding-2.html Wedding-3.html Wedding-4.html  Menu Bar */
+
+#menu-bar-weddings {
+    text-align: center;
+    font-size: 100%;
+    background-color: #f7bfbf52;
+    list-style-type: none;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#menu-bar-weddings li {
+    color: #fafafafa;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-right: 30px;
+}
+
+#menu-bar-weddings a {
+    text-decoration: none;
+    color: #fafafafa;
+    transition: all 0.35s ease-in-out;
+}
+
+#menu-bar-weddings a:hover {
+    border-bottom: 1px dotted #353333fa;
+    color: gold;
+}
+
+.active-weddings {
+    border-bottom: 1px solid #fafafafa;
+}
+
+
+@media only screen and (max-width: 600px){
+    #menu-bar-weddings li {
+        color: #353333fa;
+        display: block;
+    }
+    #menu-bar-weddings a {
+        color: #353333fa;
+}
+
+    .active-weddings {
+        border-bottom: 1px solid #353333fa;
+    }
+}
+
+
+
+
+/* ----------------------------------- About.html Page */
 
 
 #about-zuzu-section {
