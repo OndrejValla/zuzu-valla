@@ -60,7 +60,6 @@ h6 {
 }
 
 
-
 /* ----------------------------------- General Menu Bar */
 
 #menu-bar {
@@ -109,8 +108,8 @@ h6 {
 #front-page-image {
     height: 1100px;
     width: 100%;
-    background-position: 50% 50%;
     background: url(../images/front-page-image.jpg) no-repeat center center;
+    background-position: 50% 50%;
     overflow: hidden;
     padding-top: 120px;
     padding-bottom: 100px;
