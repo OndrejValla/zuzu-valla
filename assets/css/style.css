@@ -133,7 +133,7 @@ to {
 /* ------- Gallery.html Page ----*/
 
 .weddings-gallery-menu {
-    background: url(https://github.com/OndrejValla/zuzu-valla/blob/master/assets/images/gallery-top-image-1.jpg);
+    background: url(/assets/images/gallery-top-image-1.jpg);
     background-color:#f7bfbf52;
     background-size: cover;
     background-repeat: no-repeat;
