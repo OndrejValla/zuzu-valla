@@ -134,7 +134,7 @@ to {
 
 .weddings-gallery-menu {
     height: 350px;
-    background: url(/assets/images/gallery-top-image-1.jpg);
+    background: url(../images/gallery-top-image-1.jpg);
     background-color:#f7bfbf52;
     background-size: cover;
     background-repeat: no-repeat;
@@ -195,7 +195,7 @@ to {
 .packaging-options-window {
     width: 100%;
     min-height: 400px;
-    background: url(/assets/images/wedding-packages-1.JPG);
+    background: url(../images/wedding-packages-1.JPG);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 10% 40%;
@@ -242,7 +242,7 @@ to {
 
 #weddings-1-2-3-4-galleries {
     height: 100%;
-    background-image: url(/assets/images/wedding-packages-1.JPG);
+    background-image: url(../images/wedding-packages-1.JPG);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 5% 40%;
@@ -336,7 +336,7 @@ to {
 
 .about-zuzu-image {
     min-height: 650px;
-    background: url(/assets/images/zuzu-valla-profile/contact-page-photo.jpg);
+    background: url(../images/zuzu-valla-profile/contact-page-photo.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
