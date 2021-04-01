@@ -1,45 +1,77 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome OndrejValla,
+# Zuzu Valla Wedding Photography
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+![Image](assets/images/zuzu-valla-readme-platforms-image.jpg)
 
-## Gitpod Reminders
+## Welcome to "Zuzu Valla Wedding Photography" website.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+#### To see the live website, please click on this [link](https://ondrejvalla.github.io/zuzu-valla/).
 
-`python3 -m http.server`
+I would like to share with you this website, which I created as my First Milestone Project with Code Institute.
+I created this website for my wife Zuzana Valla, who loves her photography. I think she is very talented. 
+Zuzana's main focus is portrait photography, however, many people keep asking her if she could be their wedding photographer.<br> 
+Zuzana's current website only displays her art photography, therefore people can not see any wedding portraits.<br>
+The aim of this project was to create a user-friendly website that could give my wife the ability to present herself as a wedding photographer.<br>
+Easy to orientate website, where all potential customers can find out more about Zuzu's history and see a preview of previous weddings portraits. 
+Also to clearly display different wedding packages and prices Zuzana has to offer and to be able to contact her directly by the contact form. 
+I hope you will enjoy this website.
 
-A blue button should appear to click: *Make Public*,
 
-Another blue button should appear to click: *Open Browser*.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: *Make Public*,
+## Table of Contents
+> - [Overview](#overview)
+> - [User Experience](#user-experience)
+> - [Overview](#overview)
 
-Another blue button should appear to click: *Open Browser*.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-## Updates Since The Instructional Video
+## Overview  <hr>
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+We all know that excited couple planning their big wedding day have lots of preparation to do.
+There is a lot of wedding photographers out there which they can choose from and lots of website to click through.
+That is why I believe they like to see easy to orientate website, with useful information about the photographer 
+and of course to see actual photographs and prices. And lastly, the ability to effectively contact the photographer to discuss any queries they may have. 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## User Experience  <hr>
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+> - [User Stories](#user-stories)
+> - [The Scope Plane](#the-scope-plane)
+> - [The Structure Plane](#the-structure-plane)
+> - [Wireframes](#wireframes)
+> - [The Surface Plane](#the-surface-plane)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### User Stories
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- User story 1: We would like to be able to easily navigate through Zuzu's website on the laptop and also on our mobile phones.
+- User story 2: As we are considering Zuzu to be our wedding photographer we would like to see her portfolio of previous weddings.
+- User story 3: As we are currently in the stage of creating our wedding budget, 
+                we would like to know how much does Zuzu Valla charge and what are we going to get for our money.
+- User story 4: We would like to find out more about Zuzu.
+- User story 5: We would like to contact Zuzu through this website.
+- User story 6: We would like to see Zuzu's social media profiles. 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
---------
+### The Scope Plane
 
-Happy coding!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
