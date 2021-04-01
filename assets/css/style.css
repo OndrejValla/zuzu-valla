@@ -133,7 +133,7 @@ to {
 /* ------- Gallery.html Page ----*/
 
 .weddings-gallery-menu {
-    background: url(/assets/images/gallery-top-image.jpg);
+    background: url(/assets/images/gallery-top-image-1.jpg);
     background-color:#f7bfbf52;
     background-size: cover;
     background-repeat: no-repeat;
@@ -194,7 +194,7 @@ to {
 /* ------- Gallery.html Wedding Packages Section */
 
 .packaging-options-window {
-    background-image: url(/assets/images/wedding-packages.JPG);
+    background: url(/assets/images/wedding-packages-1.JPG);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 10% 40%;
