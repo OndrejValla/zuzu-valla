@@ -336,7 +336,7 @@ to {
 
 .about-zuzu-image {
     min-height: 650px;
-    background: url(https://github.com/OndrejValla/zuzu-valla/blob/master/assets/images/zuzu-valla-profile/contact-page-photo.jpg);
+    background: url(../images/zuzu-valla-profile/contact-page-photo.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
