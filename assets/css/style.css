@@ -24,7 +24,7 @@ h6 {
 .page-header {
     height: 175px;
     margin: 0 auto;
-    background-color: rgb(173, 74, 74);
+    background-color: rgb(143,67,80);
     border-bottom: 2px solid #fafafafa;
     z-index: 1;
 }
@@ -135,7 +135,7 @@ to {
 .weddings-gallery-menu {
     height: 350px;
     background: url(../images/gallery-top-image-1.jpg);
-    background-color:#f7bfbf52;
+    background-color:rgb(177, 107, 117);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 10% 42%;
@@ -150,7 +150,7 @@ to {
 }
 
 .gallery-window-menu {
-    background-color:#f7bfbf52;
+    background-color:rgb(177, 107, 117);
     padding-bottom: 30px;
 }
 
@@ -274,7 +274,7 @@ to {
 #menu-bar-weddings {
     text-align: center;
     font-size: 100%;
-    background-color: #f7bfbf52;
+    background-color: rgb(177, 107, 117);
     list-style-type: none;
     padding-top: 20px;
     padding-bottom: 10px;
@@ -336,7 +336,7 @@ to {
 
 .about-zuzu-image {
     min-height: 650px;
-    background: url(../images/zuzu-valla-profile/contact-page-photo.jpg);
+    background: url(../images/zuzu-valla-profile/zuzuvalla-bio.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
