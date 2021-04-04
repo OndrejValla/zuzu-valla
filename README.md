@@ -3,7 +3,7 @@
 
 ![Image](assets/images/zuzu-valla-readme-platforms-image.jpg)
 
-## Welcome to "Zuzu Valla Wedding Photography" website.
+## Welcome to Zuzu Valla Wedding Photography website.
 
 #### To see the live website, please click on this [link](https://ondrejvalla.github.io/zuzu-valla/).
 
@@ -12,8 +12,7 @@ I created this website for my wife Zuzana Valla, who loves the photography. I th
 Zuzana's main focus is portrait photography, however, many people keep asking her if she could be their wedding photographer.<br> 
 Zuzana's current website only displays her art photography, therefore people can not see any wedding portraits.<br>
 The aim of this project was to create a user-friendly website that could give my wife the ability to present herself as a wedding photographer.<br>
-Easy to navigate website, where all potential customers can find out more about Zuzu's history and see a preview of previous weddings portraits, 
-was the main focus. Users can also discover different wedding packages and prices Zuzana has to offer and are able to contact her directly by the contact form.<br> 
+I focused to design easy to navigate website, where all potential customers can find out more about Zuzu, see her previous work and be able to get in touch.  
 I hope you will enjoy this website.
 
 

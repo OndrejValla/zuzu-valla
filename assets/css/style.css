@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Questrial:wght@300,400,500,600,700&family=Roboto:wght@100,200,300,400,500,600,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Questrial");
 
 body {
     font-family: "Questrial", sans-serif;
     color: #fafafafa;
-    background-color: #f7bfbf52;
+    background-color: #fafafafa;
 }
 
 .text-uppercase {
@@ -22,11 +22,9 @@ h6 {
 /* --------- Header */
 
 .page-header {
-    height: 175px;
     margin: 0 auto;
     background-color: rgb(143,67,80);
     border-bottom: 2px solid #fafafafa;
-    z-index: 1;
 }
 
 .heading-text {
@@ -37,12 +35,18 @@ h6 {
 
 .heading-text h1 {
     color: #fafafafa;
-    font-size: 300%;
+    font-size: 40px;
     padding-top: 10px;
 }
 
 .heading-text p {
-    margin-bottom: 30px;
+    text-align: center;
+    margin: 0px, 0px;
+}
+@media only screen and (max-width: 600px){
+.heading-text p {
+    margin-left: 50px;
+}
 }
 
 .heading-anchor,
@@ -52,48 +56,45 @@ h6 {
 }
 
 #header-logo {
-    font-size: 300%;
+    font-size: 36px;
     float: left;
     margin-top: 10px;
+    margin-left: 10px;
 }
 
-/* ------ General Menu Bar */
+/* ------ Navbar Menu Bar --*/
 
-#menu-bar {
-    font-size: 100%;
-    text-align: center;
-    list-style-type: none;
-    background-color: #f7bfbf52;
-    padding-top: 20px;
-    padding-bottom: 10px;
-}
-
-#menu-bar li {
-    display: inline-block;
+#navbarNavDropdown li {
     color: #353333fa;
+    font-family: "Questrial";
+    font-size: 16px;
     text-transform: uppercase;
-    letter-spacing: 5px;
-    margin-right: 30px;
+    letter-spacing: 2px;
 }
 
-#menu-bar a {
-    color: #353333fa;
-    text-decoration: none;
-    transition: all 0.35s ease-in-out;
+.navbar {
+    justify-content: flex-start;
 }
 
-#menu-bar a:hover {
-    color: gold;
-    border-bottom: 1px dotted #353333fa;
+.dropdown-item {
+    text-transform: none;
 }
 
 .active {
-    border-bottom: 1px solid #353333fa;
+    color: #353333fa;
 }
 
 @media only screen and (max-width: 600px){
-#menu-bar li {
-    display: block;
+.dropdown-item {
+    font-size: 12px;
+}
+}
+
+@media (min-width: 600px){
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    padding-right: 15px;
+    position: absolute;
+    left: -70px;
 }
 }
 
@@ -135,7 +136,7 @@ to {
 .weddings-gallery-menu {
     height: 350px;
     background: url(../images/gallery-top-image-1.jpg);
-    background-color:rgb(177, 107, 117);
+    background-color:#f7bfbf52;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 10% 42%;
@@ -150,7 +151,7 @@ to {
 }
 
 .gallery-window-menu {
-    background-color:rgb(177, 107, 117);
+    background-color:#f7bfbf52;
     padding-bottom: 30px;
 }
 
@@ -256,6 +257,10 @@ to {
     margin: 20px;
 }
 
+.gallery-window-menu {
+    background-color: rgb(177, 107, 117);
+}
+
 .weddings-1-2-3-4-galleries-item {
     width: 310px;
     height: 260px;
@@ -274,7 +279,7 @@ to {
 #menu-bar-weddings {
     text-align: center;
     font-size: 100%;
-    background-color: rgb(177, 107, 117);
+    background-color: #f7bfbf52;
     list-style-type: none;
     padding-top: 20px;
     padding-bottom: 10px;
@@ -390,6 +395,7 @@ footer {
 
 .logo-footer {
     color: #fafafafa;
+    background-color: rgb(143,67,80);
     font-size: 300%;
     text-align: center;
     text-decoration: none;
@@ -458,3 +464,4 @@ footer {
     color: gold;
     text-decoration: none;
 }
+
