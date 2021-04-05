@@ -82,9 +82,50 @@
         </div>  
 </header>
 
-    <!-- Front page image section -->
-    <div id="front-page-image-out">
-        <div id="front-page-image">
+    <!-- Contact Form -->
+    <div id="contact-page">
+
+        <div class="container">
+
+            <div class="row justify-content-center">
+                <div class="col-12 mt-3 mb-3 contact-h4">
+                    <h4>Please do not hesitate to contact me if you have some question or special request.</h4>
+                </div>
+            </div>
+
+            <div class="row justify-content-around">
+                <div class="col-10 offset-1 col-sm-8 col-md-8 col-lg-4 mt-3 contact-image">
+                </div>
+
+                <div class="col-12 col-lg-6 mt-3 mb-3">
+                    <form class="contact-form" action="https://formdump.codeinstitute.net/" method="post" target="_blank">
+                        <input type="text" class="form-control mb-1" id="first-name" name="first-name" placeholder="Your name" required>
+                        <input type="text" class="form-control mb-1" id="surname" name="surename" placeholder="Your surename" required>
+                        <input type="email" class="form-control mb-1" id="email" name="e-mail" placeholder="Your e-mail" required>
+                        <input type="number" class="form-control mb-1" id="phone" name="phone" placeholder="Your phone number" required>
+                        <textarea class="form-control mb-1" id="textarea" name="text-area" rows="6" placeholder="What is in your mind?" required></textarea>
+                        <h6 class="mb-1"><u>Please select a package of your choice:</u></h6>
+                        <div class="ml-4">
+                        <input class="form-check-input" type="checkbox" id="wedding-package-1" name="package-1" value="£950 package">
+                        <label class="form-check-label" for="wedding-package-1">Package 1 £950</label>
+                        </div>
+                        <div class="ml-4">
+                        <input class="form-check-input" type="checkbox" id="wedding-package-2" name="package-2" value="£1250 package">
+                        <label class="form-check-label" for="wedding-package-2">Package 2 £1250</label>
+                        </div>
+                        <div class="ml-4">
+                        <input class="form-check-input" type="checkbox" id="wedding-package-3-video" name="package-3-video" value="+ £300 video">
+                        <label class="form-check-label" for="wedding-package-3-video">Package 3 (Video) £300</label>
+                        </div>
+                        <div class="ml-4">
+                        <input class="form-check-input" type="checkbox" id="wedding-package-3-photographer" name="package-3-photographer" value="+ £300 photographer">
+                        <label class="form-check-label" for="wedding-package-3-photographer">Package 3 (Second Photographer) £300</label>
+                        </div>
+                        <button class="btn btn-success btn-block mt-3" type="submit">Submit form</button>
+                        <input class="btn-block btn btn-outline-light btn-sm" type="reset" value="Reset form">
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -102,10 +143,10 @@
     <!-- Inspired by https://www.w3schools.com/howto/howto_css_vertical_menu.asp -->  
         <div class="col-sm-4 vertical-menu-footer">
             <div class="vertical-menu">
-                <a href="index.html" class="active-footer">Home</a>
+                <a href="index.html">Home</a>
                 <a href="gallery.html">Gallery</a>
                 <a href="about.html">About</a>
-                <a href="contact.html">Contact</a>
+                <a href="contact.html" class="active-footer">Contact</a>
             </div>
         </div>
 
@@ -129,11 +170,9 @@
     </div>   
 </footer>
 
-
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
 </body>    
 </html>
-

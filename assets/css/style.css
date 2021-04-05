@@ -100,25 +100,24 @@ h6 {
 
 /* --------Index.html  Front page content */
 
-#front-page-image {
+#front-page-hero {
+    min-height: 650px;
     width: 100%;
-    height: 1100px;
     background: url(../images/front-page-image.jpg) no-repeat center center;
-    background-position: 50% 50%;
+    background-position: 50% 20%;
     overflow: hidden;
-    padding-top: 120px;
-    padding-bottom: 100px;
 
     /* INSPIRED BY CODE INSTITUTE, LOVE RUNNING PROJECT*/
     animation-name: front-image-zoom;
-    animation-duration: 5s;
+    animation-duration: 6s;
     animation-fill-mode: forwards;
 }
 
-#front-page-image-out {
+#front-page-hero-out {
+    min-height: 650px;
     width: 100%;
-    height: 900px;
     overflow: hidden;
+    position: relative;
 }
 
 @keyframes front-image-zoom {
@@ -345,7 +344,6 @@ to {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 40px;
     margin: 20px;
     border: 1px solid white;
     border-radius: 4px;
@@ -383,10 +381,38 @@ to {
 }
 }
 
+/* --------- Contact Page */
+
+#contact-page {
+    width: 100%;
+    background-color: rgb(177, 107, 117)
+}
+
+.contact-h4 {
+    text-align: center;
+}
+
+.contact-image {
+    min-height: 500px;
+    width: 100%;
+    background: url(../images/zuzu-valla-profile/contact-page-photo.jpg);
+    background-size: cover;
+    background-position: 10% 10%;
+    background-repeat: no-repeat;
+    margin: 20px;
+    border: 1px solid #fafafafa;
+    border-radius: 4px;
+}
+
+.contact-form {
+    min-height: 350px;
+    width: 100%;
+}
+
 /* --------- Footer */
 
 footer {
-    min-height: 140px;
+    min-height: 100px;
     color: #fafafafa;
     background-color: rgb(143,67,80);
     margin-top: 0;
