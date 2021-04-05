@@ -22,18 +22,22 @@ I hope you will enjoy this website.
 > - [Overview](#overview)
 > - [User Experience](#user-experience)
 > - [Features](#features)
+> - [Technologies Used](#technologies-used)
+> - [Testing](#testing)
+> - [Deployment](#deployment)
+> - [Credits](#credits)
 
 
-
-## Overview  <hr>
+## Overview 
 
 We all know that couples planning their big wedding day have lots of preparation to do.
 There is a lot of wedding photographers out there which they can choose from and lots of website to click through.
 That is why I believe they like to see easy to orientate website, with useful information about the photographer 
 and of course to see a portfolio of photographs and prices. And lastly, the ability to effectively contact the photographer to discuss any queries they may have. 
 
+---
 
-## User Experience  <hr>
+## User Experience
 
 - [User Stories](#user-stories)
 - [The Scope Plane](#the-scope-plane)
@@ -48,9 +52,9 @@ and of course to see a portfolio of photographs and prices. And lastly, the abil
 - User story 2: As we are considering Zuzu to be our wedding photographer we would like to see her portfolio of previous weddings.
 - User story 3: As we are currently in the stage of creating our wedding budget, 
                 we would like to know how much does Zuzu Valla charge and what are we going to get for our money.
-- User story 4: We would like to find out more about Zuzu.
-- User story 5: We would like to contact Zuzu through this website.
-- User story 6: We would like to see Zuzu's social media profiles. 
+- User story 4: We would like to contact Zuzu through this website.
+- User story 5: We would like to see Zuzu's social media profiles.
+- User story 6: My friend has sent me the link to this website. I am asking myself "Who is Zuzu Valla?"
 
 ### The Scope Plane
 
@@ -107,7 +111,90 @@ to make it more personal by using my wife's favourite colours which are pink and
 - #### Icons
     - I used site Font Awesome to create Logo icons in Header and Footer.
 
-
+---
 
 ## Features
+
+- #### Navigation bar + Navigation Menu
+    - By placing Navbar in the Header and small Navigation menu to the Footer, I wanted users to be able easily navigate through the website
+      from every page.
+    - On a mobile or tablet, the navbar is collapsed to the hamburger icon which expands when clicked to display the other pages.
+    - Users can click on the logo or navbar brand to take the user back to the home-page.
+
+- #### Home page
+    - Contains an animated hero-image of newlyweds creating the wedding atmospere.
+    - Users continue from home-page furter inside of the page through top navigation bar or the bottom menu section. 
+
+- #### Gallery page
+    This page contains two main sections:
+- Gallery-menu 
+    - Contains four cards of four weddings. Each card has names of bride and groom and a front image which behaves like a button to enter the particular wedding after being clicked.
+
+- Price-list
+    - Users can read through the packaging section and find out what each package does include and how much it cost.
+    - Underneath the Package window is the "More info" button, which once clicked, takes users directly to the contact page. 
+
+- #### About page
+    - Contains a profile image of Zuzu Valla and Bio, a little story about Zuzu's past. Users can find out a little bit more about her.
+
+- #### Contact page
+    - The contact page has another image of Zuzu plus the heading text informing users to feel free to get in touch.
+    - Contact form of Name, Surename, Email, Phone number and the Text area.
+    - Underneath is the section for users to choose the packaging they liked, by ticking the relevant tick-box.
+    - Further below is the green Submit form button and underneath is the Reset form button.
+
+- #### Wedding galleries pages 
+    - In total, there are four individual wedding galleries pages.
+    - Each of these pages consists of a heading text with the name of the Bride and Groom, 
+      six wedding images in two rows plus a little story about that particular photoshoot.
+      Underneath is the slideshow carousel with large size images.  
+
+- #### Footer
+    - The footer contains a small navigation menu, Logo and relevant useful social media links available on each page.
+
+
+## Features left to implement
+
+- #### Improvements
+    - The footer contains a small navigation menu, Logo and relevant useful social media links available on each page.
+    - Functionality of forms submit, to get forms directly to Zuzu's e-mail.
+    - More wedding galleries, with even more photographs of the wedding day, from start to finish.
+    - Booking form 
+
+---
+
+## Technologies Used
+
+- #### Languages:
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+- [CSS](https://en.wikipedia.org/wiki/CSS)
+
+- #### Libraries:
+- [Balsamiq](https://balsamiq.com/) for the wireframes of this readme.md file
+- [Bootstrap 4.2.1](https://getbootstrap.com/) to use the grid system, pre-formatted features like buttons, collapsible navbar etc. across this website.
+- [FontAwesome](https://fontawesome.com/) for icons
+- [Google Fonts](https://fonts.google.com/) for fonts "Questrial"
+- [JavaScript](https://code.jquery.com/) for collapsible navbar
+
+#### Version Control:
+- [Github](https://github.com/) - Used to store the code and use of Github Pages to deploy the website. 
+- [Gitpod](https://gitpod.io/) - Used as the primary software for development and to push and commit code to Gihub.
+
+#### Other:
+- [Code Institute Course Content](https://courses.codeinstitute.net/) - Primary source of learning knowledge.
+- [ChromeDevTools](https://developers.google.com/web/tools/chrome-devtools) - Used frequently to detect any bugs or layout differences.
+- [W3Schools](https://www.w3schools.com/) - used as a general resource for HTML and CSS coding tips.
+- [AmIResponsive](http://ami.responsivedesign.is/) - Used to check how the layout of the website looks across different devices. 
+- [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly) - Used to test all pages on a mobile device
+
+---
+
+## Testing
+
+Usability and were tested on the following browsers:
+
+- Google Chrome (64 bit)
+- Firefox (64-bit)
+- Microsoft Edge (64bit)
+
 
