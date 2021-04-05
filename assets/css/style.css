@@ -112,7 +112,7 @@ h6 {
 /* --------Index.html  Front page content */
 
 #front-page-hero {
-    min-height: 650px;
+    min-height: 600px;
     width: 100%;
     background: url(../images/front-page-image.jpg) no-repeat center center;
     background-position: 50% 20%;
@@ -125,7 +125,7 @@ h6 {
 }
 
 #front-page-hero-out {
-    min-height: 650px;
+    min-height: 600px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -145,7 +145,7 @@ to {
 
 .weddings-gallery-menu {
     height: 350px;
-    background: url(../images/gallery-top-image-1.jpg);
+    background: url(../images/gallery-top-image.jpg);
     background-color:#f7bfbf52;
     background-size: cover;
     background-repeat: no-repeat;
@@ -206,7 +206,7 @@ to {
 .packaging-options-window {
     width: 100%;
     min-height: 400px;
-    background: url(../images/wedding-packages-1.JPG);
+    background: url(../images/wedding-background.JPG);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 10% 40%;
@@ -253,7 +253,7 @@ to {
 
 #weddings-1-2-3-4-galleries {
     height: 100%;
-    background-image: url(../images/wedding-packages-1.JPG);
+    background-image: url(../images/wedding-background.JPG);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 5% 40%;
