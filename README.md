@@ -185,7 +185,7 @@ to make it more personal by using my wife's favourite colours which are pink and
 - [ChromeDevTools](https://developers.google.com/web/tools/chrome-devtools) - Used frequently to detect any bugs or layout differences.
 - [W3Schools](https://www.w3schools.com/) - used as a general resource for HTML and CSS coding tips.
 - [AmIResponsive](http://ami.responsivedesign.is/) - Used to check how the layout of the website looks across different devices. 
-- [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly) - Used to test all pages on a mobile device
+- [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly) - Used to test all pages on a mobile deviceA
 
 ---
 

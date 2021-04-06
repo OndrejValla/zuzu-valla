@@ -21,35 +21,29 @@
     <!-- Header section -->
 <header>
         <div class="col-12 page-header container-fluid">
-            <div id="header-logo"> 
+            <div class="row">  
+            <div class="col-12 heading-text">
                 <a class="heading-anchor" href="index.html">
                 <i class="fas fa-camera-retro"></i>
-                </a>
-            </div> 
-
-            <div class="heading-text">
-                <a class="heading-anchor" href="index.html">
                 <h1>Zuzu Valla Photography</h1>
                 </a>
                 <p><strong>Capturing your Wedding Portraits</strong></p>
             </div>
+            </div>
         </div>
         
     <!-- Bootstrap Navbar with dropdown menu -->
-        <div class="container">
+        <div class="container bootstrap-dropdown">
             <div class="row justify-content-center">
                
-                <div class="col">
-                </div>
-
-                <div class="col-12 col-sm-4">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="col menu-row">
+                    <nav class="navbar navbar-expand-md navbar-light">
                                 <a class="navbar-brand" href="index.html"></a>
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <button class="navbar-toggler navbar-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
                         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                            <ul class="navbar-nav justify-content-center">
+                            <ul class="navbar-nav navbar-left">
                             <li class="nav-item">
                                 <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                             </li>
@@ -59,10 +53,10 @@
                                 </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="dropdown-item" href="gallery.html">Galleries/Price list</a>
-                                <a class="dropdown-item" href="m-p-wedding.html">Martina and Pawel</a>
-                                <a class="dropdown-item" href="g-s-wedding.html">Gloria and Silvan</a>
-                                <a class="dropdown-item" href="d-p-wedding.html">Deniska and Peter</a>
-                                <a class="dropdown-item" href="c-d-wedding.html">Charlotte and Dan</a>
+                                <a class="dropdown-item" href="martina-pawel-wedding.html">Martina and Pawel</a>
+                                <a class="dropdown-item" href="gloria-silvan-wedding.html">Gloria and Silvan</a>
+                                <a class="dropdown-item" href="deniska-peter-wedding.html">Deniska and Peter</a>
+                                <a class="dropdown-item" href="charlotte-dan-wedding.html">Charlotte and Dan</a>
                             </div>
                             </li>
                             <li class="nav-item">
@@ -76,8 +70,7 @@
                     </nav>
                 </div>
 
-                <div class="col">
-                </div>  
+                
 
             </div>
         </div>  
@@ -93,16 +86,16 @@
         <div class="double-window">
             <div class="card-deck">
                 <div class="card">
-                    <a href="m-p-wedding.html" aria-label="Go to Wedding number 1">
-                    <img class="card-img-top" src="assets/images/m-p-wedding.jpg" alt="Martina and Pawel Wedding">
+                    <a href="martina-pawel-wedding.html" aria-label="Go to Wedding number 1">
+                    <img class="card-img-top" src="assets/images/martina-pawel-wedding.jpg" alt="Martina and Pawel Wedding">
                     <div class="card-body text-center">
                         <h5 class="card-title">Martina and Pawel Wedding</h5>    
                     </div>    
                     </a>
                 </div>
                 <div class="card">
-                    <a href="g-s-wedding.html" aria-label="Go to Wedding number 2">
-                    <img class="card-img-top" src="assets/images/g-s-wedding.JPG" alt="Gloria and Silvan Wedding">
+                    <a href="gloria-silvan-wedding.html" aria-label="Go to Wedding number 2">
+                    <img class="card-img-top" src="assets/images/gloria-silvan-wedding.JPG" alt="Gloria and Silvan Wedding">
                     <div class="card-body text-center">
                         <h5 class="card-title">Gloria and Sylvain Wedding</h5>
                     </div>
@@ -114,16 +107,16 @@
         <div class="double-window-2">
             <div class="card-deck">
                 <div class="card">
-                    <a href="d-p-wedding.html" aria-label="Go to Wedding number 3">
-                    <img class="card-img-top" src="assets/images/d-p-wedding.jpg" alt="Deniska and Peter Wedding">
+                    <a href="deniska-peter-wedding.html" aria-label="Go to Wedding number 3">
+                    <img class="card-img-top" src="assets/images/deniska-peter-wedding.jpg" alt="Deniska and Peter Wedding">
                     <div class="card-body text-center">
                         <h5 class="card-title">Deniska and Peter Wedding</h5>
                     </div> 
                     </a>   
                 </div>
                 <div class="card">
-                    <a href="c-d-wedding.html" aria-label="Go to Wedding number 4">
-                    <img class="card-img-top" src="assets/images/c-d-wedding.jpg" alt="Charlotte and Dan Wedding">
+                    <a href="charlotte-dan-wedding.html" aria-label="Go to Wedding number 4">
+                    <img class="card-img-top" src="assets/images/charlotte-dan-wedding.jpg" alt="Charlotte and Dan Wedding">
                     <div class="card-body text-center">
                         <h5 class="card-title">Charlotte and Dan Wedding</h5>
                     </div>
@@ -134,7 +127,7 @@
 
         <div class="container">
             <div class="row col-12 no-gutters packaging-options-window">   
-                <div class="col-12"><h2>Wedding photography prices</h2></div>
+                <div class="col-12"><h2 id="package-link">Wedding photography prices</h2></div>
 
                 <div class="packages col-12 col-sm-12 col-lg-4">
                     <h2>Package 1</h2>

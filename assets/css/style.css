@@ -20,61 +20,104 @@ h6 {
 }
 
 /* --------- Header */
-
 .page-header {
-    margin: 0 auto;
+    color: #fafafafa;
+    margin: 0;
     background-color: rgb(143,67,80);
     border-bottom: 2px solid #fafafafa;
 }
 
-.heading-text {
-    display: inline;  
+.page-header a {
+    color: #fafafafa;
+}
+
+.heading-text {  
     text-align: center;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .heading-text h1 {
     color: #fafafafa;
     font-size: 40px;
-    padding-top: 10px;
+    margin-left: 15px;
 }
 
 .heading-text p {
     text-align: center;
-    margin: 0px, 0px;
-}
-@media only screen and (max-width: 600px){
-.heading-text p {
-    margin-left: 50px;
-}
+    margin: 10px;
 }
 
 .heading-anchor,
 .heading-anchor:hover {
-    color: #fafafafa;
+    color: goldenrod;
+    font-size: 40px;
     text-decoration: none;
+    display: inline-flex;
+    margin-right: 15px;
 }
 
-#header-logo {
-    font-size: 36px;
-    float: left;
-    margin-top: 10px;
-    margin-left: 10px;
+@media only screen and (max-width: 700px){
+.heading-text h1 {
+    font-size: 24px;
+}
+.heading-text p {
+    font-size: 12px;
+    margin-left: 45px;
+}
 }
 
 /* ------ Navbar Menu Bar --*/
-
 #navbarNavDropdown li {
     color: #353333fa;
     font-family: "Questrial";
     font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 2px;
+    z-index: 3;
 }
+
+.navbar button {
+    margin-top: 20px;
+}
+
+.navbar-right{
+    position: absolute;
+    right: 5%;
+}
+
+.navbar-left {
+    position: relative;
+    right: 15%;
+    transform: translatex(30%);
+}
+
+
+
+.menu-row {
+    min-height: 80px;
+}
+
+@media only screen and (max-width: 600px){
+.navbar-right {
+    position: absolute;
+    right: 5%;
+}
+} 
+
+
+/*
+
+
+
 
 .navbar {
     justify-content: flex-start;
-    padding: 0px, 15px;
+    padding: 1rem 1rem;
+    z-index: 3;
+}
+
+.dropdown a {
+    width: 130px;
 }
 
 .navbar-brand {
@@ -86,6 +129,8 @@ h6 {
     font-size: 8px;
     line-height: 2px;
 }
+
+
 
 .dropdown-item {
     text-transform: none;
@@ -101,48 +146,40 @@ h6 {
 }
 }
 
-@media (min-width: 600px){
-.navbar-expand-lg .navbar-nav .dropdown-menu {
+@media (max-width: 700px){
+.navbar-expand-sm .navbar-nav .dropdown-menu {
     padding-right: 15px;
     position: absolute;
     left: -70px;
 }
 }
 
+.bootstrap-dropdown {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+*/
+
+
 /* --------Index.html  Front page content */
 
-#front-page-hero {
-    min-height: 600px;
-    width: 100%;
-    background: url(../images/front-page-image.jpg) no-repeat center center;
-    background-position: 50% 20%;
-    overflow: hidden;
-
-    /* INSPIRED BY CODE INSTITUTE, LOVE RUNNING PROJECT*/
-    animation-name: front-image-zoom;
-    animation-duration: 6s;
-    animation-fill-mode: forwards;
+.front-page {
+    background: url(../images/wedding-background.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 80% 80%;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    z-index: 1;
 }
 
-#front-page-hero-out {
-    min-height: 600px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
+.front-page-first {
+    height: 100px;
+    text-align: center;
 }
 
-@keyframes front-image-zoom {
-from {
-    transform: scale(1);
-}
-
-to {
-    transform: scale(1.1);
-}
-}
 
 /* ------- Gallery.html Page ----*/
-
 .weddings-gallery-menu {
     height: 350px;
     background: url(../images/gallery-top-image.jpg);
@@ -202,7 +239,6 @@ to {
 }
 
 /* ------- Gallery.html Wedding Packages Section */
-
 .packaging-options-window {
     width: 100%;
     min-height: 400px;
@@ -211,6 +247,7 @@ to {
     background-repeat: no-repeat;
     background-position: 10% 40%;
     padding: 20px;
+    margin-top: 30px;
     border: 1px solid white;
     border-radius: 3px;
 }    
@@ -247,10 +284,19 @@ to {
 
 .button {
     margin-top: 10px;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+@media (max-width: 700px){
+    .packaging-options-window {
+        margin-left: 0;
+        padding-left: 5px;
+        padding-right: 5px;
+}
 }
 
 /* ------Wedding-1.html Wedding-2.html Wedding-3.html Wedding-4.html  Galleries ------*/
-
 #weddings-1-2-3-4-galleries {
     height: 100%;
     background-image: url(../images/wedding-background.JPG);
@@ -285,7 +331,6 @@ to {
 }
 
 /* ---------Wedding-1.html Wedding-2.html Wedding-3.html Wedding-4.html  Menu Bar */
-
 #menu-bar-weddings {
     text-align: center;
     font-size: 100%;
@@ -335,7 +380,6 @@ to {
 }
 
 /* -------- About.html Page */
-
 #about-zuzu-section {
     background-color: rgb(177, 107, 117);
 }
@@ -350,9 +394,9 @@ to {
 }
 
 .about-zuzu-image {
-    min-height: 650px;
+    min-height: 440px;
     background: url(../images/zuzu-valla-profile/zuzuvalla-bio.jpg);
-    background-position: center;
+    background-position: 50% 15%;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 20px;
@@ -378,22 +422,26 @@ to {
 
 .about-p {
     color: #fafafafa;
-    font-family: "Roboto" sans-serif;
     font-weight: 100;
     margin: 20px;
 }
 
 @media only screen and (max-width: 600px){
-
 .about-h2,
 .about-h3,
 .about-p {
-    text-align: center;
+text-align: center;
+}
+}
+
+@media only screen and (min-width: 700px){
+.about-zuzu-image {
+    min-height: 400px;
+    min-width: 370px;
 }
 }
 
 /* --------- Contact Page */
-
 #contact-page {
     width: 100%;
     background-color: rgb(177, 107, 117)
@@ -405,7 +453,6 @@ to {
 
 .contact-image {
     min-height: 500px;
-    width: 100%;
     background: url(../images/zuzu-valla-profile/contact-page-photo.jpg);
     background-size: cover;
     background-position: 10% 10%;
@@ -421,7 +468,6 @@ to {
 }
 
 /* --------- Footer */
-
 footer {
     min-height: 100px;
     color: #fafafafa;
@@ -501,4 +547,3 @@ footer {
     color: gold;
     text-decoration: none;
 }
-
