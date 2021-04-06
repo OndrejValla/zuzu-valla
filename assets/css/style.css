@@ -116,62 +116,6 @@ h6 {
 } 
 
 
-/*
-
-
-
-
-.navbar {
-    justify-content: flex-start;
-    padding: 1rem 1rem;
-    z-index: 3;
-}
-
-.dropdown a {
-    width: 130px;
-}
-
-.navbar-brand {
-    float: left;
-    width: 1px;
-    height: 5px;
-    margin: 0;
-    padding: 0;
-    font-size: 8px;
-    line-height: 2px;
-}
-
-
-
-.dropdown-item {
-    text-transform: none;
-}
-
-.active {
-    color: #353333fa;
-}
-
-@media only screen and (max-width: 600px){
-.dropdown-item {
-    font-size: 14px;
-}
-}
-
-@media (max-width: 700px){
-.navbar-expand-sm .navbar-nav .dropdown-menu {
-    padding-right: 15px;
-    position: absolute;
-    left: -70px;
-}
-}
-
-.bootstrap-dropdown {
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-*/
-
-
 /* --------Index.html  Front page content */
 
 .front-page {
