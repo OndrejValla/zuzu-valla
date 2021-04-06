@@ -68,6 +68,7 @@ h6 {
 
 /* ------ Navbar Menu Bar --*/
 #navbarNavDropdown li {
+    max-width: 90%;
     color: #353333fa;
     font-family: "Questrial";
     font-size: 16px;
@@ -76,8 +77,14 @@ h6 {
     z-index: 3;
 }
 
+.navbar {
+    display: flex;
+    padding: 0px;
+}
+
 .navbar button {
-    margin-top: 20px;
+    margin-top: 30px;
+    padding: 5px;
 }
 
 .navbar-right{
@@ -89,12 +96,16 @@ h6 {
     position: relative;
     right: 15%;
     transform: translatex(30%);
+    padding-right: 15px;
 }
 
-
-
 .menu-row {
-    min-height: 80px;
+    min-height: 40px;
+    padding: 0px;
+}
+
+.menu-col {
+    padding: 0px;
 }
 
 @media only screen and (max-width: 600px){
