@@ -120,19 +120,68 @@ h6 {
 
 .front-page {
     background: url(../images/wedding-background.JPG);
-    background-size: cover;
     background-repeat: no-repeat;
-    background-position: 80% 80%;
+    background-position: 40% 50%;
     padding-bottom: 20px;
     padding-top: 10px;
     z-index: 1;
 }
 
-.front-page-first {
-    height: 100px;
-    text-align: center;
+.front-page-images-container {
+    margin-top: 15px;
+    border: 2px solid white;
 }
 
+.front-page-images {
+    height: 150px;
+    width: 200px;
+    border: 2px solid white;
+}
+
+.f-p-i-1 {
+    background: url(../images/front-page-carousel/5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 70% 42%;
+    margin: 10px 5px 10px 10px;
+}
+
+.f-p-i-2 {
+    background: url(../images/front-page-carousel/2.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 30% 2%;
+    margin: 10px 5px 10px 5px;
+}
+
+.f-p-i-3 {
+    background: url(../images/front-page-carousel/6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 55% 99%;
+    margin: 10px 5px 10px 5px;
+}
+
+.f-p-i-4 {
+    background: url(../images/front-page-carousel/3.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 55% 12%;
+    margin: 10px 10px 10px 10px;
+}
+
+@media (max-width: 800px){
+.front-page-images {
+    max-height: 75px;
+    max-width: 100px;
+    border: 1px solid white;
+}
+
+.front-page-images-container {
+    margin-top: 15px;
+    border: 1px solid white;
+}
+}
 
 /* ------- Gallery.html Page ----*/
 .weddings-gallery-menu {
