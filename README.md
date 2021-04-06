@@ -8,7 +8,7 @@
 #### To see the live website, please click on this [link](https://ondrejvalla.github.io/zuzu-valla/).
 
 I would like to share with you this website, which I created as my First Milestone Project with Code Institute.
-I created this website for my wife Zuzana Valla, who loves the photography. I think she is very talented. 
+I created this website for my wife Zuzana Valla, who loves photography. I think she is very talented. 
 Zuzana's main focus is portrait photography, however, many people keep asking her if she could be their wedding photographer.<br> 
 Zuzana's current website only displays her art photography, therefore people can not see any wedding portraits.<br>
 The aim of this project was to create a user-friendly website that could give my wife the ability to present herself as a wedding photographer.<br>
@@ -31,9 +31,9 @@ I hope you will enjoy this website.
 ## Overview 
 
 We all know that couples planning their big wedding day have lots of preparation to do.
-There is a lot of wedding photographers out there which they can choose from and lots of website to click through.
+There is a lot of wedding photographers out there which they can choose from and lots of websites to click through.
 That is why I believe they like to see easy to orientate website, with useful information about the photographer 
-and of course to see a portfolio of photographs and prices. And lastly, the ability to effectively contact the photographer to discuss any queries they may have. 
+and of course to see a portfolio of photographs and prices. People also like the ability to effectively contact the photographer to discuss any queries they may have. 
 
 ---
 
@@ -98,7 +98,7 @@ I was aiming to achieve a wedding mood touch of this website and also
 to make it more personal by using my wife's favourite colours which are pink and red.  
 
 - #### Images 
-    All images used on this website were taken by my wife Zuzan Valla or myself Ondrej Valla.<br>
+    All images used on this website were taken by my wife Zuzana Valla or myself Ondrej Valla.<br>
     Zuzana did the selection of photographs for me to use.
 
 - #### Colours
@@ -235,9 +235,9 @@ All tested pages had shown No errors or warnings to show.
 
 #### Testing forms
 
-- To make sure the Forms was functioning as it should, I tested each of the forms on different devices and browsers. 
-  This was done by clicking the Submit form button without any text in inputs to make sure it resulted with the desired response of 'Please fill out this field'.
-  Once correctly filled, being send to The Code Institute Form validator.
+- To make sure the Forms were functioning as they should, I tested each of the forms on different devices and browsers. 
+  This was done by clicking the Submit form button without any text in inputs to make sure it resulted
+  in the desired response of 'Please fill out this field'. Once correctly filled, being sent to The Code Institute Form validator.
 
 #### Testing links
 - Internal links have been checked so when clicked the user is directed to the desired location.
@@ -246,36 +246,36 @@ All tested pages had shown No errors or warnings to show.
 
 #### Testing Users Stories
 
-- 1. User Story:
+-  User Story1:
   "We would like to be able to easily navigate through Zuzu's website on the laptop and on our mobile phones."
     
      - As the user enters the site, Top navigation bar is straigt away visible. Also after scrolling down, User will find Navigation in the Footer.
        After clicking the logo in the header and footer, home page does open.
 
-- 2. User Story:
+-  User Story2:
     "As we are considering Zuzu to be our wedding photographer we would like to see her portfolio of previous weddings"
     
      - There is lots of photographs from previous weddings. Home page has carousel of previous weddings slide show.
        The Gallery page offers four Wedding albums with a little story each.
 
-- 3. User Story:
+-  User Story3:
     "As we are currently in the stage of creating our wedding budget, we would like to know how much does Zuzu Valla charge and what are we going to get for our money."
 
      - For all users interested in the price, website has Price list section right under the gallery menu. 
        Users can find out what each package include. They will know what they going to get for their money.
 
-- 4. User Story: 
+-  User Story4: 
     "We would like to contact Zuzu through this website."
 
      - Contact page includes a contact form and multiple enquiry buttons for users interested in particular Wedding Package option.
 
-- 5. User Story:
+-  User Story5:
     "We would like to see Zuzu's social media profiles."
 
      - For further exploration of Zuzu Valla photography, users can visit Zuzu's social media profiles. 
        All relevant links are on the bottom of the page in the footer section. Every link is opening in separate tab, for easy return to the website.
 
-- 6. User Story:
+-  User Story6:
     "My friend has sent me the link to this website. I am asking myself "Who is Zuzu Valla?" "
     
      - Users who do not know Zuzu Valla, can find out more through this website. About section uncovers a bio story about Zuzu. 
@@ -357,8 +357,8 @@ To work on the project code:
 
 ### Acknowledgements
 
-- My BIGGEST Thanks goes to my lovely wife, for all her support and understanding.
-- I was inspired by Zuzu Valla, as she told me, that she would like to have a separate website for her Wedding photography.
+- My **BIGGEST** Thanks goes to my lovely wife, for all her support and understanding.
+- I was inspired by **Zuzu Valla**, as she told me, that she would like to have a separate website for her Wedding photography.
 - My Mentor, **Nishant Kumar**, for his honest feedbacks.
 - Tutor Support, Kevin Loughrey and Sheryl Goldberg for their support, anytime of the day or night.
 - Thank you to Anna Greaves for creating [this helpful webinar](https://www.youtube.com/watch?v=7BteidgLAyM).
